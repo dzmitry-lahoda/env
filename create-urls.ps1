@@ -8,3 +8,7 @@ $Inspect.Save()
 $WinDbg32 = $shell.CreateShortcut("$desktop\WinDbg32.lnk")
 $WinDbg32.TargetPath = "c:\Program Files (x86)\Debugging Tools for Windows (x86)\windbg.exe"
 $WinDbg32.Save()
+
+$WinDbg64 = $shell.CreateShortcut("$desktop\WinDbg64.lnk")
+$WinDbg64.TargetPath = "c:\Program Files\Debugging Tools for Windows\windbg.exe"
+$WinDbg64.Save()
