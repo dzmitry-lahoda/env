@@ -3,6 +3,8 @@ Windows Registry Editor Version 5.00
 ; AppLocker
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe]
 
+[-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Srp\Gp\Exe]
+[-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Srp\Gp\Msi]
 [-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control\Srp\Gp\Exe]
 [-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control\Srp\Gp\Msi]
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Srp\Gp\Exe]
