@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+# Author: Dzmitry.Lahoda@gmail.com
+# Configures cygwin for usage 
+# - add /cygdrive/c/scripts for usage
+# Example:
+#     cygconf 
