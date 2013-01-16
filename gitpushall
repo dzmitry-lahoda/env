@@ -4,7 +4,4 @@
 # adds - commits - pushes all changes 
 # Example:
 #     gitpushall "message"
-
-git add -all
-git commit -m $1       
-git push origin master
+git add --all
