@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+; enables logs .NET assembly loading and type binding logs to troubleshoot problems kind of "DLL file not found" or "Type not found"
+[HKLM\Software\Microsoft\Fusion]
+"ForceLog"=dword:00000001
+
+[HKLM\Software\Microsoft\Fusion]
+"LogResourceBinds"=dword:00000001
