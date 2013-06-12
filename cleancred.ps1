@@ -6,7 +6,7 @@
 # @TODO: make it safer for layman persons
 # Usage:
 #  cleancred "Dzmitry_Lahoda"
-# cmdkey.ps1 /list
+
 $credentials = cmdkey /list
 
     #Target: LegacyGeneric:target=MS.Outlook:Dzmitry.Lahoda@sample.com:PUT
