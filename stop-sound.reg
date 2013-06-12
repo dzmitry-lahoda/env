@@ -1,4 +1,7 @@
 Windows Registry Editor Version 5.00
+; Prevent your PC from making noise on start and shutdown.
+; @Author Dzmitry Lahoda
+
 ; disables start and exit sound of Windows
 [-HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\WindowsLogon\.Current]
 [-HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\WindowsLogoff\.Current]

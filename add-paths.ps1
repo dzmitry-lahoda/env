@@ -1,4 +1,4 @@
-# creates environment variables for sofware I use in windows
+# creates environment variables for sofware programmer Dzmitry Lahoda use in Windows
 $paths ="c:\Program Files (x86)\Microsoft F#\v4.0\;c:\scripts;"
 if (!$Env:Path.contains($paths)){ 
   [Environment]::SetEnvironmentVariable("PATH",$Env:Path + $paths, "Machine")

@@ -1,4 +1,4 @@
-:: start up script when i working from home
+:: start up script when Dzmitry Lahoda have fun
 @echo off
 x:
 cd x:\win\skype\

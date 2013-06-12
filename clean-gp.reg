@@ -1,6 +1,7 @@
 Windows Registry Editor Version 5.00
 ; makes Windows 7 free of Group Policies related to executables
-;TODO: refactor so that only neccesary items unlicked - e.g. torrents
+; @Author Dzmitry Lahoda
+;TODO: refactor so that only neccesary items unlocked - e.g. portable torrent application executable on external harddrive
 ; AppLocker
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SrpV2\Exe]
 
