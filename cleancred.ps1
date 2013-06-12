@@ -2,9 +2,10 @@
 # Sometimes when the password is changed, it is important to update stored credentials in the Windows Credential Manager. Otherwise, account may be sporadically locked out due to multiple failed logon attempts. 
 # @Author Dzmitry.Lahoda@gmail.com
 # @Version 0.1
-# #TODO:  and web browsers clean up
+# @TODO:  and web browsers clean up
+# @TODO: make it safer for layman persons
 # Usage:
-#  cleancred Dzmitry_Lahoda
+#  cleancred "Dzmitry_Lahoda"
 # cmdkey.ps1 /list
 $credentials = cmdkey /list
 
