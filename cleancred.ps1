@@ -1,7 +1,8 @@
 # Cleans all Windows Domain credentials for specified account.
-# Sometimes when the password is changed, it is important to update stored credentials in the Windows Credential Manager and web browsers. Otherwise, account may be sporadically locked out due to multiple failed logon attempts. 
+# Sometimes when the password is changed, it is important to update stored credentials in the Windows Credential Manager. Otherwise, account may be sporadically locked out due to multiple failed logon attempts. 
 # @Author Dzmitry.Lahoda@gmail.com
 # @Version 0.1
+# #TODO:  and web browsers clean up
 # Usage:
 #  cleancred Dzmitry_Lahoda
 # cmdkey.ps1 /list
