@@ -20,7 +20,7 @@ $credentials = cmdkey /list
 $username = $args[ 0 ];
 $credentials = $credentials.split("`n")
 
-$targets = ($null)
+$targets = ("","")
 
 for($i=1
      $i -le $credentials.length
@@ -42,6 +42,8 @@ $targets
 
 foreach ($target in $targets){
 if ($target) {
-   cmdkey /delete:$target 
+  if (-not ($target -eq "")){
+     cmdkey /delete:$target 
+   }
   }
 }
