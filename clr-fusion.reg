@@ -5,3 +5,6 @@ Windows Registry Editor Version 5.00
 
 [HKLM\Software\Microsoft\Fusion]
 "LogResourceBinds"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
+"EnableLog"=dword:00000001

@@ -4,3 +4,9 @@ Windows Registry Editor Version 5.00
 ; disables .NET dll loading tracing
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
 "EnableLog"=dword:00000000
+
+[HKLM\Software\Microsoft\Fusion]
+"ForceLog"=dword:00000000
+
+[HKLM\Software\Microsoft\Fusion]
+"LogResourceBinds"=dword:00000000
