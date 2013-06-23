@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+; contains collection of registration values needed to disable development features of Windows turned on
+
+; disables .NET dll loading tracing
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
+"EnableLog"=dword:00000000
