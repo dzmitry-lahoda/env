@@ -1,10 +1,17 @@
 Windows Registry Editor Version 5.00
-; enables logs .NET assembly loading and type binding logs to troubleshoot problems kind of "DLL file not found" or "Type not found"
-[HKLM\Software\Microsoft\Fusion]
+; enables logs .NET assembly loading and type binding logs to troubleshoot problems kind of "DLL file not found" or "Type not found". 
+; use SxStrace for native and/or side by side
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion]
 "ForceLog"=dword:00000001
 
-[HKLM\Software\Microsoft\Fusion]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion]
 "LogResourceBinds"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
 "EnableLog"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
+"LogFailures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion]
+"LogPath"= "c:/fusion"
