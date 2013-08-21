@@ -12,12 +12,17 @@
  open System.Numerics
  let generator = new RNGCryptoServiceProvider();
  
+ let id16data  = Array.zeroCreate<byte> 2
  let id32data  = Array.zeroCreate<byte> 4
  let id64data  = Array.zeroCreate<byte> 8
  let id128data = Array.zeroCreate<byte> 16
  let id256data = Array.zeroCreate<byte> 32
  let bigpositive = Array.zeroCreate<byte> 2
 
+ let uid16 = 
+   generator.GetBytes(id16data)
+   BitConverter.ToUInt16(id16data,0)
+ 
  let uid32 = 
    generator.GetBytes(id32data)
    BitConverter.ToUInt32(id32data,0)
@@ -37,7 +42,8 @@
    let number = new BigInteger(positive)
    let asd = number.ToByteArray();
    number
-
+   
+ printfn "%d" uid16
  printfn "%d" uid32
  printfn "%d" uid64
  printfn "%s" (uid128.ToString())
