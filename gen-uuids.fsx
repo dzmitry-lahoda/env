@@ -1,7 +1,8 @@
-﻿ // Generates several kinds of pseudo unique IDs (32bit,64bit,128bit,256bit) using crypto service provider.
+﻿ // Generates several kinds of pseudo unique IDs (16bit,32bit,64bit,128bit,256bit) using crypto service provider.
  // Prints them standard out in unsigned integer format.
  // @Author Dzmitry Lahoda
  // Sample output:
+ // 45797
  // 506221985
  // 14934970197285413438
  // 330697221413339266712634430034777116618
