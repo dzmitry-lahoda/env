@@ -1,6 +1,6 @@
 /// outputs location and name of script
 printfn "Application Path:"
-let path = System.IO.Path.Combine(__SOURCE_DIRECTORY__,__SOURCE_FILE__);
+let path =  System.IO.Path.Combine(__SOURCE_DIRECTORY__,__SOURCE_FILE__)
 printfn "%s" path
 
 printfn ""

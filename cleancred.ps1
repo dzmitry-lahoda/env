@@ -2,13 +2,14 @@
 # Sometimes when the password is changed, it is important to update stored credentials in the Windows Credential Manager. Otherwise, account may be sporadically locked out due to multiple failed logon attempts. 
 # @Author Dzmitry.Lahoda@gmail.com
 # @Version 0.1
-# @TODO:  and web browsers clean up
+# @TODO: and web browsers clean up
 # @TODO: make it safer for layman persons
-# Usage:
-#  cleancred "Dzmitry_Lahoda"
+# @Example:
+#   powershell cleancred.ps1 "Dzmitry_Lahoda"
 
 $credentials = cmdkey /list
 
+# $credentials is like next lines pattern
     #Target: LegacyGeneric:target=MS.Outlook:Dzmitry.Lahoda@sample.com:PUT
     #Type: Generic 
     #User: TASMANIA\Dzmitry.Lahoda
