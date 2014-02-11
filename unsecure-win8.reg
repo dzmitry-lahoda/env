@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+; Makes Windows 8 to be developers friendly. Elevate each program to current user rights by default.
+; @Author Dzmitry Lahoda
+; http://www.neowin.net/forum/topic/1120770-windows-8-run-everything-as-administrator/
+
+; The following is equal to the Security Policy "User Account Control: Behaviour of the elevation prompt for administrators in Admin Approval Mode" = "Elevate without prompting". Default value is 2.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"ConsentPromptBehaviorAdmin"=dword:000000000
+
+; The following is equal to the Security Policy "User Account Control: Allow UIAccess applications to prompt for elevation without using the secure dekstop" = "Enabled". Default value is 0
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableUIADesktopToggle"=dword:000000001
+
+
+
