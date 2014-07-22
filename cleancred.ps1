@@ -1,11 +1,14 @@
 # Cleans all Windows Domain credentials for specified account.
 # Sometimes when the password is changed, it is important to update stored credentials in the Windows Credential Manager. Otherwise, account may be sporadically locked out due to multiple failed logon attempts. 
 # @Author Dzmitry.Lahoda@gmail.com
-# @Version 0.1
-# @TODO: and web browsers clean up
-# @TODO: make it safer for layman persons
+# @Version 0.2
 # @Example:
 #   powershell cleancred.ps1 "Dzmitry_Lahoda"
+# @ Remarks:
+#   - search is case insensitive
+# @TODO: 
+#   - 3rd party web browsers clean up
+#   - make it safer for layman persons
 
 $credentials = cmdkey /list
 
@@ -28,9 +31,9 @@ for($i=1
      $i++){
        if (-not ($credentials[$i])){continue}; # null or empty string
        if ( $credentials[$i].contains("Target")){
-         if ($i+2 -le $credentials.length){ #User propery goes 3rd starting from Target
+         if ($i+2 -le $credentials.length){ #User property goes 3rd starting from Target
            if ($credentials[$i+2].contains("User")){
-              if ($credentials[$i+2].contains($username)){
+              if ($credentials[$i+2].ToUpper().contains($username)){
                 $targets = $targets + $credentials[$i].Remove(0,12) # leaves only name
               }
            }
