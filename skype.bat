@@ -3,5 +3,5 @@
 :: @Author Dzmitry Lahoda
 @echo off
 mdkir Data 
-start skype.exe /secondary /removable /datapath:"Data"
+start skype.exe /secondary /removable /datapath:%~dp0\"Data"	
 exit
