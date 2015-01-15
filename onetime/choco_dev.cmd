@@ -2,6 +2,7 @@
 choco install fiddler4
 choco install git
 choco install git-tf
+choco install tortoisehg
 
 
 

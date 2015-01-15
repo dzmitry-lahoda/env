@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# Author: Dzmitry.Lahoda@gmail.com
+# 
+# adds - commits - pushes all changes 
+# Example:
+#     gitpushall "message"
+git add --all;
+git commit -m "$1";
+git push origin master;
