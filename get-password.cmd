@@ -1,7 +1,7 @@
 :: allows entering password 
 :: see http://stackoverflow.com/a/20343074
 :: Usage:
-::   getpsw
+::   get-password
 ::   echo %password%
 @echo off
 set "psCommand=powershell -Command "$pword = read-host 'Enter Password' -AsSecureString ; ^
