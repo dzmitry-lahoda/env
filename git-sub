@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# Author: Dzmitry.Lahoda@gmail.com
+# 
+# Runs git command for each subdirectory.
+# Example:
+#     gitsub status "~/projects"
+#     gitsub status "$(pwd)"
+
+for dir in $2/*; do (echo $dir && cd $dir && git $1); done
