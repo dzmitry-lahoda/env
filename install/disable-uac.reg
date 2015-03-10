@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 ; Makes Windows to be developers friendly. Disables User Account Control.
-; @Author Dzmitry Lahoda
 
 ; disables User Account Control (UAC)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
