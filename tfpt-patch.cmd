@@ -1,5 +1,5 @@
 :: Patches TFS branch with shelveset from other.
-:: cd (change dir) to up to date local <target> branch
+:: cd (change directory) to up to date local <target> branch
 :: Usage:
 ::   tfpt-patch <source> <target> <shelveset_name>
 :: Example:

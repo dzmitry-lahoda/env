@@ -8,3 +8,5 @@ choco install projectlibre -y
 choco install freemind -y
 choco install goldendict-en-ru-en -y
 choco install gnucash -y
+choco install gpg4win -y
+
