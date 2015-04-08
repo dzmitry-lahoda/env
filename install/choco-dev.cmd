@@ -22,9 +22,10 @@ set PATH=%PATH%;C:\tools\gittfs
 choco install tortoisehg  -y
 
 :: portable
-choco install rust -pre
 choco install jdk8 
 choco install eclipse
+choco install rust -pre
+eclipse -application org.eclipse.equinox.p2.director -repository http://rustdt.github.io/releases/ -installIU com.github.rustdt.feature.group
 choco install codeblocks 
 
 :: Windows
@@ -46,6 +47,9 @@ choco install seleniumiedriver
 choco install fiddler
 choco install winpcap 
 choco install wireshark 
+
+:: mobile
+choco install android-sdk 
 
 :: installs IIS with .NET based features with no legacy (omits IIS-ASP;IIS-CGI;IIS-ODBCLogging;IIS-IIS6ManagementCompatibility;IIS-LegacyScripts;IIS-LegacySnapIn;IIS-FTPPublishingService;IIS-FTPServer;IIS-FTPManagement)
 :: TODO: replace with usage of  DISM see http://forums.iis.net/t/1176358.aspx and https://msdn.microsoft.com/en-us/library/windows/desktop/dd371719.aspx
