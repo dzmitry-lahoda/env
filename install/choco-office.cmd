@@ -1,12 +1,15 @@
 :: installs office software
 
-:: Virtualization
-choco install virtualbox -y
-
+choco install greenshot -y
 choco install libreoffice -y
 choco install projectlibre -y
 choco install freemind -y
-choco install goldendict-en-ru-en -y
+choco install goldendict-en-ru-en.install -version 1.0.1 -y
 choco install gnucash -y
-choco install gpg4win -y
+
+
+:: Virtualization
+choco install virtualbox -y
+
+
 

@@ -1,52 +1,46 @@
 :: install tools Dzmitry Lahoda uses for development as for current
 
 :: support
-choco install sysinternals
-choco install processhacker
-choco install debugdiagnostic 
-choco install imdisk 
-choco install sqlite.shell 
+choco install sysinternals  -y
+choco install processhacker  -y
+choco install debugdiagnostic -y
+choco install imdisk    -y
+choco install sqlite.shell  -y
 
 :: git
 choco install git -y
 choco install tortoisegit  -y
 
-:: TFS
-choco install visualstudio2013teamexplorer  -y
-:: http://stackoverflow.com/questions/12866832/whats-the-difference-between-git-tf-and-git-tfs
-::choco install git-tf 
-choco install gittfs  -y
-set PATH=%PATH%;C:\tools\gittfs
 
 :: Mercury
 choco install tortoisehg  -y
 
 :: portable
-choco install jdk8 
-choco install eclipse
+choco install jdk8 -y
+choco install eclipse  -y
 choco install rust -pre
 eclipse -application org.eclipse.equinox.p2.director -repository http://rustdt.github.io/releases/ -installIU com.github.rustdt.feature.group
-choco install codeblocks 
+choco install codeblocks  -y
 
 :: Windows
-choco install windows-sdk-8.1 
+choco install windows-sdk-8.1  -y
 
 
 :: .NET
-choco install microsoft-build-tools 
-choco install netfx-4.5.1-devpack 
+choco install microsoft-build-tools  -y
+choco install netfx-4.5.2-devpack -y
 choco install sharpdevelop  -y
 choco install nugetpackageexplorer -y
 choco install ilspy -y
-choco install specflow 
+choco install specflow -y
 
 :: automation
-choco install seleniumiedriver
+choco install seleniumiedriver -y
 
 :: network
-choco install fiddler
-choco install winpcap 
-choco install wireshark 
+choco install fiddler -y
+choco install winpcap -y
+choco install wireshark -y
 
 :: mobile
 choco install android-sdk 
