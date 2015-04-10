@@ -1,11 +1,7 @@
 :: install tools Dzmitry Lahoda uses for development as for current
 
 :: support
-choco install sysinternals  -y
-choco install processhacker  -y
 choco install debugdiagnostic -y
-choco install imdisk    -y
-choco install sqlite.shell  -y
 
 :: git
 choco install git -y

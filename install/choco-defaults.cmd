@@ -3,6 +3,7 @@
 choco install 7zip -y
 choco install doublecmd -y
 choco install notepadplusplus -y
+::TODO: set notepadplusplus default editor for double cmd
 
 choco install vlc -y
 choco install jpegview -y
