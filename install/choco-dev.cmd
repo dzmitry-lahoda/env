@@ -39,7 +39,9 @@ choco install winpcap -y
 choco install wireshark -y
 
 :: mobile
-choco install android-sdk 
+choco install android-sdk -y
+::TODO: autoinstall adb
+::TODO: add to path c:\Users\<USER NAME>\AppData\Local\Android\android-sdk\platform-tools\adb.exe
 
 :: installs IIS with .NET based features with no legacy (omits IIS-ASP;IIS-CGI;IIS-ODBCLogging;IIS-IIS6ManagementCompatibility;IIS-LegacyScripts;IIS-LegacySnapIn;IIS-FTPPublishingService;IIS-FTPServer;IIS-FTPManagement)
 :: TODO: replace with usage of  DISM see http://forums.iis.net/t/1176358.aspx and https://msdn.microsoft.com/en-us/library/windows/desktop/dd371719.aspx
