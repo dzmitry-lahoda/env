@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-# Author: Dzmitry.Lahoda@gmail.com
 # 
 # Runs git command for each subdirectory.
 # Example:

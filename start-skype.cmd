@@ -1,5 +1,4 @@
 :: Runs isolated portable skype. Allows running several skypes.
-:: @Author Dzmitry Lahoda
 
 ::TODO: allow running out of skype.exe directory
 ::TODO: if %~dp0/skype.exe exists then run from local folder

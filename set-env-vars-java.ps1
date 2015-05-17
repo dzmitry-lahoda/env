@@ -1,5 +1,4 @@
 # Creates environment variables for better Java programming 
-# @Auhtor Dzmitry Lahoda
 
 $JAVA_HOME ="c:\Program Files\Java\jdk1.8.0\"
 $ANT_HOME ="C:\OneDrive\exe\apache-ant-1.9.4\"
