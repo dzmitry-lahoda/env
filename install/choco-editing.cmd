@@ -1,6 +1,7 @@
 
 :: Installs editing tools for media files.
 
-choco install vim
-choco install virtualdub
-choco install avidemux
+choco install vim -y
+choco install virtualdub -y
+choco install avidemux -y
+choco install gimp -y

@@ -1,6 +1,7 @@
 :: installs free versions of Visual Studio and free extensions
 
-choco install visualstudiocommunity2013 -params "AdminFile.xml"
+
+choco install visualstudiocommunity2013 -y -packageParameters  "/AdminFile:vs-admin-deployment.xml"
 choco install batch-install-vsix -params %~dp0\batch-install-vsix.extensions.xml -y
 
 :: TFS

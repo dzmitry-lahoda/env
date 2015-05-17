@@ -1,0 +1,3 @@
+# deletes files listed in .gitignore
+# untracked files remain untouched
+git clean -f

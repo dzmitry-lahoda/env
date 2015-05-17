@@ -20,7 +20,7 @@ choco install codeblocks  -y
 
 :: Windows
 choco install windows-sdk-8.1  -y
-
+choco install wixtoolset -y
 
 :: .NET
 choco install microsoft-build-tools  -y
@@ -29,6 +29,7 @@ choco install sharpdevelop  -y
 choco install nugetpackageexplorer -y
 choco install ilspy -y
 choco install specflow -y
+choco install xamarin-studio -y
 
 :: automation
 choco install seleniumiedriver -y

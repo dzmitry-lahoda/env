@@ -3,6 +3,8 @@
 choco install 7zip -y
 choco install doublecmd -y
 choco install notepadplusplus -y
+choco install nuget.commandline  -y
+
 ::TODO: set notepadplusplus default editor for double cmd
 
 choco install vlc -y
@@ -17,6 +19,7 @@ choco install cygwin -y
 choco install cyg-get -y
 choco install javaruntime -y
 choco install dotnet4.5.2  -y
+choco install gtksharp -y
 
 :: to replace powershell scripts with F# scripts
 choco install visualfsharptools -y

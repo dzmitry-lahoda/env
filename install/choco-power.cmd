@@ -6,4 +6,6 @@ choco install imdisk    -y
 choco install sqlite.shell  -y
 choco install openhardwaremonitor -version 0.7.1  -y
 
+
+choco install rufus -y
 choco install testdisk -y
