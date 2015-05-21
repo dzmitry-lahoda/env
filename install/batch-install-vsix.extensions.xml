@@ -1,5 +1,5 @@
 <extensions>
-<!-- free and open source for VS 2012 and 2013-->
+<!-- free and open source for VS 2012 and 2013 and 2015-->
   <extension name="SpecFlow integration for Visual Studio 2010 and 2012" version="11" url="https://visualstudiogallery.msdn.microsoft.com/9915524d-7fb0-43c3-bb3c-a8a14fbd40ee/file/79327/7/TechTalk.SpecFlow.Vs2010Integration.vsix" />
   <extension name="SpecFlow integration for Visual Studio 2013" version="12" url="https://visualstudiogallery.msdn.microsoft.com/90ac3587-7466-4155-b591-2cd4cc4401bc/file/112721/3/TechTalk.SpecFlow.Vs2013Integration.vsix" />
   

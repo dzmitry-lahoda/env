@@ -1,2 +1,5 @@
-
+packages
 *.dll
+bin
+obj
+*.suo
