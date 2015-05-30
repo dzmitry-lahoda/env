@@ -29,5 +29,11 @@ $truecrypt = "c:\Program Files\trueCrypt"
 if (!$Env:Path.contains($truecrypt)){ 
   [Environment]::SetEnvironmentVariable("PATH",$Env:Path + $truecrypt, "Machine")
 }  
+
+$chocoshim = "c:\ProgramData\chocolatey\bin"
+if (!$Env:Path.contains($chocoshim)){ 
+  [Environment]::SetEnvironmentVariable("PATH",$Env:Path + $chocoshim, "Machine")
+}  
+  
   
 

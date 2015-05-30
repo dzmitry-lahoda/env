@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (Empty Map.vue) 2015-05-22 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Program%20Files%20(x86)/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Fri May 22 12:43:41 BRT 2015 by dzmitry_lahoda on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Fri May 22 06:35:29 BRT 2015 by dzmitry_lahoda on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="Empty Map.vue"
     created="1417424761688" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1432309421777" size="4677"
+    <resource referenceCreated="1432287330139" size="4677"
         spec="w:\scripts\Empty Map.vue" type="1" xsi:type="URLResource">
         <title>Empty Map.vue</title>
         <property key="File" value="w:\scripts\Empty Map.vue"/>
