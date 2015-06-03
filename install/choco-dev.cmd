@@ -30,6 +30,7 @@ choco install nugetpackageexplorer -y
 choco install ilspy -y
 choco install specflow -y
 choco install xamarin-studio -y
+choco install snoop -y
 
 :: automation
 choco install seleniumiedriver -y
