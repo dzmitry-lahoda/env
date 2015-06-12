@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
-; Makes Windows to be developers friendly. Disables User Account Control.
+; Makes Windows to be developers friendly. Disables User Account Control (UAC).
+; see https://gallery.technet.microsoft.com/Registry-Key-to-Disable-UAC-45d0df25
 
-; disables User Account Control (UAC)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
-"EnableLUA"=dword:000000010
-
+"ConsentPromptBehaviorAdmin"=dword:00000000
+"EnableLUA"=dword:00000000
 

@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+; Disables attached media and storages autorun
+; see You must restart Windows Explorer before the changes take effect.
+
+; The following is equal to the Security Policy "User Account Control: Behaviour of the elevation prompt for administrators in Admin Approval Mode" = "Elevate without prompting". Default value is 2.
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000FF
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoDriveTypeAutoRun"=dword:000000FF
+

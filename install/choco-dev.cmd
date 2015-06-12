@@ -1,13 +1,5 @@
 :: install tools Dzmitry Lahoda uses for development as for current
 
-:: support
-choco install debugdiagnostic -y
-
-:: git
-choco install git -y
-choco install tortoisegit  -y
-
-
 :: Mercury
 choco install tortoisehg  -y
 
@@ -20,17 +12,9 @@ choco install codeblocks  -y
 
 :: Windows
 choco install windows-sdk-8.1  -y
-choco install wixtoolset -y
 
-:: .NET
-choco install microsoft-build-tools  -y
-choco install netfx-4.5.2-devpack -y
-choco install sharpdevelop  -y
-choco install nugetpackageexplorer -y
-choco install ilspy -y
-choco install specflow -y
-choco install xamarin-studio -y
-choco install snoop -y
+
+
 
 :: automation
 choco install seleniumiedriver -y

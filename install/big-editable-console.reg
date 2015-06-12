@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+; Makes cmd.exe interface bigger and editable
+; http://superuser.com/questions/683431/where-are-the-default-settings-saved-for-the-command-prompt-defaults
+
+; The following is equal to the Security Policy "User Account Control: Behaviour of the elevation prompt for administrators in Admin Approval Mode" = "Elevate without prompting". Default value is 2.
+[HKEY_CURRENT_USER\Console]
+"QuickEdit"=dword:1
+"HistoryBufferSize"=dword:32
+"WindowSize"=dword:320064
+"ScreenBufferSize"=dword:3e80064
+
+
