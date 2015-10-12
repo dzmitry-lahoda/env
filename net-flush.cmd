@@ -1,4 +1,5 @@
 :: Cleans network stack caches. Sometimes help with networking problems
+:: TODO: prefix logs with script name and put logs in current dir
 ipconfig /flushdns
 netsh interface ip delete arpcache
 ipconfig /renew

@@ -12,7 +12,7 @@ C:
 cd %skype%
 set data=%~1Data
 mkdir %data%
-start Skype.exe /secondary /removable /datapath:%data%
+start Skype.exe /secondary /removable /minimized /regrun /datapath:%data% 
 %drive%
 cd %drive_path%
 exit

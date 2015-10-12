@@ -1,0 +1,39 @@
+
+%
+app(conemu).
+app(doublcmd).
+app(sharpdevelop).
+app(virtualbox).
+
+tag(virtualization,conemu).
+tag(development,sharpdevelop).
+tag(explorer,doublecmd).
+tag(editor,notepadplusplus).
+tag(player,vlc).
+
+role(power_user,process_hacker).
+role(developer,sharpdevelop).
+role(power_user,conemu).
+role(developer,ilspy).
+role(user,doublcmd).
+role(user,vlc).
+role(user,notepadplusplus).
+
+
+for_dzmitry(Y) :- tag(development,Y); role(developer,Y).
+for_dzmitry(Y) :- for_anton(Y).
+for_anton(Y) :- tag(power_user,Y).
+for_maryna(Y) :- tag(user,Y).
+
+
+% if app1 for user then is for power_user
+% if app1 for power_user then for developer
+
+% if user1 is developer then is power_user
+% if user2 is user then it is NOT power_user
+
+% if app1 is for developer then implies development tag
+% if app2 is for power_user then implies diagnostics
+% if app3 is not for roles then for any
+
+

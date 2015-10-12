@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+; Do not want installed programs autostart until specified otherwise
+; E.g. I run 2 Skypes in parallel with specific parameters do not want default autostart
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"TortoiseHgOverlayIconServer"=-
+"Greenshot"=-
+"CyHidWin"=-
+"CyCpIo"=-
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"SysTrayApp"=-
+"SynTPEnh"=-
+"Persistence"=-
+"HotKeysCmds"=-
+"IgfxTray"=-
+"Apoint"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"Free Download Manager"=-
+"Lync"=-
+"Seafile"=-
+"SyncManPath"=-
+"Viber"=-
+"Skype"=-
+"Workrave"=-

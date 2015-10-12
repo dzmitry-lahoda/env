@@ -28,7 +28,9 @@ choco install `f:/install` `role:.NET developer or tags:(security AND communicat
 - thise allows integration with external sites for software tags and roles
 
 TODO: 
-
+- allow version dependance in config, e.g. if `virtualbox.extensionpack` should be same as `virtualbox` 
+- chech how to path parameters into installtion out of config
+- run for each installation custom post installation script
 - set notepadplusplus default editor for everything double cmd
 - find good sceen recorde, camstudio seems to contain crapware install, better to try to install portable versions
 - autoinstall adb

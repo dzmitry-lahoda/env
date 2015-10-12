@@ -10,7 +10,8 @@ Next guideline is used for all installaton code above:
 - not custom formatted texts like `.reg`, but `xml` `json` `yaml`
 
 
-Same for `Linux` - no dynamic lagnuages for scripting like `.py`, bash, Ruby, LISP. May be `go` will go.
+
+Same for `Linux` - no dynamic languages for scripting like `.py`, bash, Ruby, LISP. May be `go` will go.
 
 TODO:
 - rewrite ps1 and reg and vbs files with F#
