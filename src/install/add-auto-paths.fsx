@@ -8,7 +8,7 @@ type Env = Environment
 
 
 let JAVA_HOME = @"c:\Program Files\Java\jdk1.8.0"
-let ANT_HOME = @"C:\OneDrive\exe\apache-ant-1.9.4"
+let ANT_HOME = @"W:\OneDrive\exe\apache-ant-1.9.4"
 
 //TODO: add fsi path for fsi running this code
 let FSI = @"C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0\"
@@ -58,10 +58,11 @@ let addToPath (toAdd:string)  =
 let main() =
   //TODO: use global swich to compile with logging and without
   //TODO: split out config stirngs leaving only code
+  addToPath(FSI)
   addToPath(VS_BIN)
   addToPath(VS_IDE)
   addToPath(VS_TOOLS)
-  addToPath(golang)
+  //addToPath(golang)
   //TODO: do targets and cleanup for variables as to paths
   //Env.SetEnvironmentVariable("GOPATH",GOPATH, EnvironmentVariableTarget.Machine)
   //Env.SetEnvironmentVariable("JAVA_HOME",JAVA_HOME, Machine)

@@ -1,8 +1,10 @@
 ﻿#if COMPILED
 #else
-#r "../packages/FSharp.Data/lib/net40/FSharp.Data.dll"
-#r "../packages/FSharp.Management/lib/net40/FSharp.Management.dll"
+#r "../../packages/FSharp.Data/lib/net40/FSharp.Data.dll"
+#r "../../packages/FSharp.Management/lib/net40/FSharp.Management.dll"
 #endif
+
+namespace FsLocal 
 
 module Localnet =
 
