@@ -1,4 +1,4 @@
-:: Disables telemetry on Windows 8 and 10
+:: Disables telemetry and makes more private Windows 8 and 10
 :: http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/
     REM This should be run with command prompt as an adminstrator.
     REM Disable the antivirus and Windows Defender.
@@ -9,6 +9,7 @@
     REM First, block Windows from sending data about you to their servers.
 
     echo ## BEGIN Windows 10 privacy settings ##>>%windir%\system32\drivers\etc\hosts
+	echo 127.0.0.1 apps.skype.com>>%windir%\system32\drivers\etc\hosts
     echo 127.0.0.1 vortex.data.microsoft.com>>%windir%\system32\drivers\etc\hosts
     echo 127.0.0.1 vortex-win.data.microsoft.com>>%windir%\system32\drivers\etc\hosts
     echo 127.0.0.1 telecommand.telemetry.microsoft.com>>%windir%\system32\drivers\etc\hosts
@@ -56,12 +57,12 @@
     REM First, opt-out of some, but not all, of the privacy settings.
     REM Not all anti-privacy settings have been found.
 
-    REM settings -> privacy -> general -> let apps use my ID …
+    REM settings -> privacy -> general -> let apps use my ID
     reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo\ /v Enabled /t REG_DWORD /d 0 /f
     reg delete HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo\ /v Id /f
     reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo\ /v Enabled /t REG_DWORD /d 0 /f
 
-    REM settings -> privacy -> general -> let websites provide locally …
+    REM settings -> privacy -> general -> let websites provide locale 
     reg add “HKCU\Control Panel\International\User Profile\ /v HttpAcceptLanguageOptOut” /t REG_DWORD /d 1 /f
 
     REM settings -> privacy -> general -> speech, inking, & typing
@@ -74,11 +75,11 @@
     reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\ /v BingSearchEnabled /t REG_DWORD /d 0 /f
 
     REM Block telemetry.
-sc config DiagTrack start= disabled
-sc config dmwappushservice start= disabled
-sc stop DiagTrack
-sc stop dmwappushservice
-reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ /v AllowTelemetry /t REG_DWORD /d 0 /f 
+    sc config DiagTrack start= disabled
+    sc config dmwappushservice start= disabled
+    sc stop DiagTrack
+    sc stop dmwappushservice
+    reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ /v AllowTelemetry /t REG_DWORD /d 0 /f 
     reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection\ /v AllowTelemetry /t REG_DWORD /d 0 /f
 
     REM Finished. 
