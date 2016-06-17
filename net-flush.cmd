@@ -2,6 +2,7 @@
 :: TODO: prefix logs with script name and put logs in current dir
 ipconfig /flushdns
 netsh interface ip delete arpcache
+ipconfig /release
 ipconfig /renew
 
 :: reset TCP/IP stack
