@@ -59,6 +59,7 @@
     </Content>
     <None Include="LocalNet.fsx" />
     <None Include="tf-get-except.fsx" />
+    <None Include="zip-each-folder-max.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data">
