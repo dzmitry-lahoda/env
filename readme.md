@@ -1,4 +1,4 @@
-Next guideline is used for all installaton code above:
+Next guideline are used for all scripting code
 ---
 - when possible native mature and widely available command line tools should be called
 - no ad-hock scripting intermeidate lagnuages used, like `.cmd` `.bat` `.vbs`
@@ -9,7 +9,7 @@ Next guideline is used for all installaton code above:
 -- because `F#` can be statically compiled into `.dll` for fast lean execution
 - `F#` is expressibe for many embeding Domain Specific Languages 
 
-F# script design guidelines:
+F# script design guidelines
 ---
 
 **Gluing code projects from original native to system languages**
@@ -34,6 +34,7 @@ Anyway scripter needs to learn underlying language to be effective. So there is 
 
 F# script coding guidelines:
 ---
+- each script has header describing purpose and result with single line
 - All dependencies resolved via Paket. Each script has line to run packet in header.
 - no `new` keyword
 - no types in method declarations parameters 
@@ -42,7 +43,6 @@ F# script coding guidelines:
 - Share `#r` list via `references.fsx`
 - By default scipts are idempotent, may compile and run twice. Given environment same will get same results.
 - Decide what to 2 if same stucture compiled 2 in different namespaces via 2 `#load` do create `.fs` file with namespace.
-
 
 No dynamic languages for scripting like Python, bash, Ruby, LISP. For system level scripting use `Rust`.
 
