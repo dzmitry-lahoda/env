@@ -3,7 +3,7 @@ Next guideline are used for all scripting code
 - when possible native mature and widely available command line tools should be called
 - no ad-hock scripting intermeidate lagnuages used, like `.cmd` `.bat` `.vbs`
 -- not custom formatted texts like `.reg`, but `xml` `json` `yaml`
-- `PowerShell` is used to bootstrap `F#`. All other done via `F#`
+- `PowerShell` is used to bootstrap `F#` only. All other done via `F#`
 - `F#` used for all possible scripts as language 
 -- because`F#` provides scripting editing experince when needed, but generating more sustainable texts
 -- because `F#` can be statically compiled into `.dll` for fast lean execution
@@ -45,6 +45,11 @@ F# script coding guidelines:
 - Decide what to 2 if same stucture compiled 2 in different namespaces via 2 `#load` do create `.fs` file with namespace.
 
 No dynamic languages for scripting like Python, bash, Ruby, LISP. For system level scripting use `Rust`.
+
+See also
+---
+
+- https://www.infoq.com/news/2017/01/fsharp-project-springfield
 
 TODO:
 ---
