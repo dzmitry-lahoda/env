@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+; Disable build in antivirus. Firewall + UAC + Integrity Levels + User Accounts + Do not click random stuff are enough.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
