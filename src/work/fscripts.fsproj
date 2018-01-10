@@ -60,6 +60,7 @@
     <None Include="LocalNet.fsx" />
     <None Include="tf-get-except.fsx" />
     <None Include="zip-each-folder-max.fsx" />
+    <None Include="binary_16_to_guid.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Data">

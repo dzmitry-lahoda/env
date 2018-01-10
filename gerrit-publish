@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# Publishes changes of local commited changes into remote named "gerrit" into passed branch.
+# In order to republish to gerrit (e.g. because of random fail) do ammend commit of random file and republish
+# 
+# Example:
+#   gerrit-publish my/story/test
+#   gerrit-publish master
+# git push --progress "gerrit" HEAD:refs/drafts/story/141/test
+git push --progress "gerrit" HEAD:refs/for/"$1"
