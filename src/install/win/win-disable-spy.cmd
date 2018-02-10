@@ -1,5 +1,7 @@
 :: Disables telemetry and makes more private Windows 8 and 10
 :: http://winaero.com/blog/how-to-disable-telemetry-and-data-collection-in-windows-10/
+:: Check that your devices are not in your Microsoft account https://account.microsoft.com/devices
+
     REM This should be run with command prompt as an adminstrator.
     REM Disable the antivirus and Windows Defender.
     REM After disabling those, rename the file extension from .txt to .cmd
