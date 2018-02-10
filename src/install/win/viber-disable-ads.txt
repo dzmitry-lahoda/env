@@ -1,0 +1,3 @@
+
+0.0.0.0 http://ads.viber.com	#viber ads
+0.0.0.0 http://media.cdn.viber.com	#viber ads

@@ -5,3 +5,5 @@ obj
 *.suo
 .paket/paket.exe
 paket.lock
+.userprefs
+*.un~
