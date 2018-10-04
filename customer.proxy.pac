@@ -1,0 +1,1 @@
+var FindProxyForURL = (url, host) =>  shExpMatch(host, "*.example.com") ?  "PROXY 127.0.0.1:8080" : "DIRECT";
