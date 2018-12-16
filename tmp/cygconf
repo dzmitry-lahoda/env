@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# Configures cygwin for usage 
+# - add /cygdrive/c/scripts for usage
+# Example:
+#     cygconf 

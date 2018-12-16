@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+; Do not want installed programs autostart until specified otherwise
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"SysTrayApp"=-

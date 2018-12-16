@@ -1,1 +1,0 @@
-imdisk -a -t vm -s 4g -m x:
