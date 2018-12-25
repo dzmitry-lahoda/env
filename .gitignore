@@ -1,3 +1,9 @@
+
+#scripts
+.tmp
+.runtime
+
+
 packages
 *.dll
 bin

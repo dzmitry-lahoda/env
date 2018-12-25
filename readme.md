@@ -19,3 +19,11 @@
 - dot not automate very specific which may be installed only oncd upong time and already for new version
 
 - in case of  in `path` conflict rename to less conflicted
+
+:: TODO: verify integrity of package and available local space, try to search and show alternative
+:: TODO: expand .. from path, normalize path, check PATH has not yet such directory, check that cmd/exe from new path are not in conflict with exisits
+:: if conflict than request overwrite?
+
+- downloads globally non conflicted, pathes for current user only, option to all users presented 
+- - how to overcome warning of 1024 symbols in PATH? Registe environment variable for root and add more for each tool - will end soon.
+- so reimplement chocolatey.
