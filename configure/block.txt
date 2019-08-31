@@ -1,0 +1,37 @@
+﻿# the list of things i do censor self from reading
+# most probable reason - to much noise, to small depth, to much ads
+# or may be I am just text and news and information addict and want to reduce it
+0.0.0.0 phys.org
+0.0.0.0 www.phys.org
+0.0.0.0 politico.eu
+0.0.0.0 www.politico.eu
+0.0.0.0 cbc.ca
+0.0.0.0 www.cbc.ca
+0.0.0.0 basilica.ai
+0.0.0.0 www.basilica.ai
+0.0.0.0 nytimes.com
+0.0.0.0 www.nytimes.com
+0.0.0.0 www.theatlantic.com
+0.0.0.0 theatlantic.com
+0.0.0.0 independent.co.uk
+0.0.0.0 thedailybeast.com
+0.0.0.0 www.theguardian.com
+0.0.0.0 theguardian.com
+0.0.0.0 www.heise.de
+0.0.0.0 heise.de
+0.0.0.0 twitter.com
+0.0.0.0 forbes.com
+0.0.0.0 www.forbes.com
+0.0.0.0 www.commondreams.org
+0.0.0.0 commondreams.org
+0.0.0.0 theregister.co.uk
+0.0.0.0 www.theverge.com
+0.0.0.0 theverge.com
+0.0.0.0 thewalrus.ca
+0.0.0.0 futurism.com
+0.0.0.0 www.dailymail.co.uk
+0.0.0.0 dailymail.co.uk
+0.0.0.0 www.wsj.com
+0.0.0.0 quillette.com
+0.0.0.0 nautil.us
+0.0.0.0 theoutline.com
