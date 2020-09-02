@@ -1,9 +1,0 @@
-After installation, before automation, I do install manually:
-
-- Chocolatey as to automate
-
-Next I do tune manually:
-
-- [Git for Windows] 
-- [VS Codium](https://github.com/VSCodium/vscodium/releases)
-- gitextensions 
