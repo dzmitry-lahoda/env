@@ -1,7 +1,0 @@
-packages
-*.dll
-bin
-obj
-*.suo
-.paket/paket.exe
-paket.lock

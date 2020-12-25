@@ -1,1 +1,0 @@
-"C:\Users\Dzmitry_Lahoda\AppData\Local\Google\Chrome SxS\Application\chrome.exe"
